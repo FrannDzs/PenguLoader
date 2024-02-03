@@ -68,7 +68,7 @@ namespace PenguLoader
             try
             {
                 var trans = Current.FindResource(key);
-                if (trans != null && trans is string)
+                if (trans is string)
                     return trans as string;
             }
             catch
